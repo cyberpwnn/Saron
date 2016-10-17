@@ -1,0 +1,4 @@
+main: org.cyberpwn.saron.Saron
+version: ${project.version}
+name: Saron
+depend: [Phantom]
