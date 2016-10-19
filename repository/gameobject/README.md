@@ -7,11 +7,27 @@ instance:
   entity: 
     living-entity: 
       creature: 
+        passive: 
+          guard: 
+        agressive: 
+          monster: 
+          enemy: 
+          boss: 
       character: 
+        merchant: 
+        familliar: 
     item: 
       weapon: 
       tool: 
-      basic-item:
-  objective:
+      basic-item:  
+  objective: 
     quest: 
+      navigation: 
+      defeat: 
+      collect: 
+  region: 
+    dungeon: 
+    empire: 
+      village: 
+    monster-spawn: 
 ```
