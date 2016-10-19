@@ -15,11 +15,11 @@ limiting:
  
     # Should react touch the player limit (virtual)?
     # Default Value: true
-    change-player-limit: true
+    change-player-limit: false
  
     # Attempts to kick the most afk users first.
     # Default Value: true
-    kick-most-afk-first: true
+    kick-most-afk-first: false
  
     # Send a color coded kick message to kicked players.
     # Default Value: &cKicked for AFK (too many players also)

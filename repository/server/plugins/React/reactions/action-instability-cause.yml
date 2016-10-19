@@ -71,12 +71,12 @@ component:
   # 
   # You can disable Instability Trace here.
   # Default Value: true
-  enable: true
+  enable: false
  
   # Its typically not a good idea to change this
   # unless you know what you are doing.
   # Default Value: 10
-  interval: 10
+  interval: 100
 config:
  
   # This is used for React to manage itself between updates

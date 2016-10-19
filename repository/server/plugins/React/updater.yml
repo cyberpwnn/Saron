@@ -11,7 +11,7 @@ updater:
     # Should we automatically download the update if we find it?
     # We wont redownload each update check.
     # Default Value: true
-    enabled: true
+    enabled: false
  
   # Allow the update command to be used?
   # Default Value: true
@@ -26,7 +26,7 @@ update-checking:
  
   # Enable update checking?
   # Default Value: true
-  enable: true
+  enable: false
  
   # How often (in seconds) should we check for an update?
   # This is async, so if we dont get a connection, no freezing.

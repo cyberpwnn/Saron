@@ -2,7 +2,7 @@ startup:
  
   # Startup verbose for extra information.
   # Default Value: false
-  verbose: false
+  verbose: true
  
   # Run the garbage collector after startup to prevent memory issues from reloading and startup.
   # Default Value: true
@@ -82,7 +82,7 @@ runtime:
  
   # Disable all reactions. Just sampling basically.
   # Default Value: false
-  disable-reactions: false
+  disable-reactions: true
 config:
  
   # This is used for React to manage itself between updates
@@ -104,4 +104,4 @@ messages:
  
   # Notifiy players with react.monitor permissions of instabilities?
   # Default Value: true
-  notify-instability: true
+  notify-instability: false
