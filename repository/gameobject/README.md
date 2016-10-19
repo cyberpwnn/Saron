@@ -13,9 +13,6 @@ instance:
       tool: 
   objective: 
     quest: 
-      navigation: 
-      defeat: 
-      collect: 
   region: 
     dungeon: 
     empire: 
