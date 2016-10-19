@@ -14,8 +14,6 @@ instance:
           enemy: 
           boss: 
       character: 
-        merchant: 
-        familliar: 
     item: 
       weapon: 
       tool: 
@@ -28,7 +26,7 @@ instance:
   region: 
     dungeon: 
     empire: 
-      village: 
+    village: 
     monster-spawn: 
     boundary: 
     portal: 
