@@ -1,0 +1,24 @@
+{
+  "phantom-depending-plugins": [],
+  "phantom-status-network-failure": false,
+  "phantom-status-data-failure": false,
+  "phantom-all-plugins": [
+    "PlugMan v2.1.1",
+    "FastAsyncWorldEdit v16.08.25-5ed89f9-238",
+    "Essentials vTeamCity",
+    "Vault v1.5.6-b49",
+    "Votifier v1.9",
+    "PlaceholderAPI v2.5.1",
+    "ProtocolLib v3.6.5",
+    "DeluxeChat v1.10.0",
+    "Citizens v2.0.16-SNAPSHOT (build 1267)",
+    "WorldEdit v6.1.3;7a097ca",
+    "Phantom vS9",
+    "React v3p"
+  ],
+  "phantom-status-plugin-failure": false,
+  "phantom-status-database-failure": false,
+  "phantom-api-revision": "S9",
+  "phantom-identify-server": "CHANGE-ME-82852666-4ecc-4d1c-94fa-67a909be0369!!!!!!!!!!!!",
+  "phantom-status-api-failure": false
+}

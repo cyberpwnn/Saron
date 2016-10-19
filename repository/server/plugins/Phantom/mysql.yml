@@ -1,0 +1,21 @@
+database:
+ 
+  # The username for the database
+  # This will be used for all phantom plugins that use databases
+  username: username
+ 
+  # Database Address to the database server. Localhost is the local machine (this one)
+  # This will be used for all phantom plugins that use databases
+  address: localhost
+ 
+  # Database Name. This is the specific database to cram tables into.
+  # This will be used for all phantom plugins that use databases
+  database: database
+ 
+  # The password for the database
+  # This will be used for all phantom plugins that use databases
+  password: password
+ 
+  # The port used for this database server. Typically 3306
+  # This will be used for all phantom plugins that use databases
+  port: 3306

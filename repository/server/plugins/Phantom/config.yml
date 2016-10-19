@@ -1,0 +1,50 @@
+dispatcher:
+  nodes:
+    Phantom:
+      ChanneledExecutivePoolController: false
+      WraithController: false
+      CommandRegistryController: false
+      ProbeController: false
+      ResourceController: false
+      PhastController: false
+      EventRippler: false
+      PlaceholderController: false
+      BungeeController: false
+      MySQLConnectionController: false
+      MultiblockRegistryController: false
+      HotLoadController: false
+      TestController: false
+      RegistryController: false
+      EditSessionController: false
+      NestController: false
+      PhotonController: false
+      DMS: false
+      BlockCheckController: false
+      ProtocolController: false
+      MonitorController: false
+      SlateController: false
+      DefaultController: false
+      ConfigurationBackupController: false
+      UpdateController: false
+      NotificationController: false
+      DevelopmentController: false
+ 
+  # Should all dispatchers be silenced?
+  silence: false
+development:
+  reload:
+ 
+    # This will reload the desired plugin when it is modified
+    on-plugin-change: false
+ 
+    # When true, this will reload all plugins instead of just the modified one
+    everything: false
+tests:
+ 
+  # Disable Tests
+  enabled: true
+server-identifier: CHANGE-ME-82852666-4ecc-4d1c-94fa-67a909be0369!!!!!!!!!!!!
+thrashing:
+ 
+  # Should titles be displayed to players while thrashing?
+  display-titles-to-all: false

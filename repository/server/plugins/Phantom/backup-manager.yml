@@ -1,0 +1,4 @@
+housekeeping:
+ 
+  # Hours to pass before cleaning configs
+  time-before-delete: 72.0
