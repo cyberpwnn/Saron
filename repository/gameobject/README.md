@@ -30,4 +30,6 @@ instance:
     empire: 
       village: 
     monster-spawn: 
+    boundary: 
+    portal: 
 ```
