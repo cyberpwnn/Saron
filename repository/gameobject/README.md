@@ -6,6 +6,7 @@ Some explaination on how to do crap
 instance:
   entity: 
     living-entity: 
+      player: 
       creature: 
       character: 
     item: 
