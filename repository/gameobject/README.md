@@ -7,17 +7,10 @@ instance:
   entity: 
     living-entity: 
       creature: 
-        passive: 
-          guard: 
-        agressive: 
-          monster: 
-          enemy: 
-          boss: 
       character: 
     item: 
       weapon: 
       tool: 
-      basic-item:  
   objective: 
     quest: 
       navigation: 
