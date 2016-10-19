@@ -15,9 +15,9 @@ instance:
     quest: 
   region: 
     dungeon: 
-    empire: 
     village: 
-    monster-spawn: 
+    spawn: 
+    hostile: 
     boundary: 
     portal: 
 ```
