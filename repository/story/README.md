@@ -13,3 +13,16 @@ Simply create a new file by navigating to the folder you want it in
 ### Once you have made changes, simply commit your changes
 
 ![](http://imgur.com/GLF5OH3.png)
+
+# Editing Files
+First, select a file
+
+![](http://imgur.com/Dgq12Vq)
+
+### Smack the pencil button
+
+![](http://imgur.com/R7nII2f)
+
+### Make Changes and Commit
+
+![](http://imgur.com/vbQI2sz)
