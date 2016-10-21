@@ -17,12 +17,12 @@ Simply create a new file by navigating to the folder you want it in
 # Editing Files
 First, select a file
 
-![](http://imgur.com/Dgq12Vq)
+![](http://imgur.com/Dgq12Vq.png)
 
 ### Smack the pencil button
 
-![](http://imgur.com/R7nII2f)
+![](http://imgur.com/R7nII2f.png)
 
 ### Make Changes and Commit
 
-![](http://imgur.com/vbQI2sz)
+![](http://imgur.com/vbQI2sz.png)
