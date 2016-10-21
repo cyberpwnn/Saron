@@ -6,10 +6,10 @@ Simply create a new file by navigating to the folder you want it in
 
 ![](http://imgur.com/wTqz4z5.png)
 
-#### Then choose a name. **MAKE SURE IT ENDS WITH** .md
+### Then choose a name. **MAKE SURE IT ENDS WITH** .md
 
 ![](http://imgur.com/s1tCjZM.png)
 
-#### Once you have made changes, simply commit your changes
+### Once you have made changes, simply commit your changes
 
 ![](http://imgur.com/GLF5OH3.png)
