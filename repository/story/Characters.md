@@ -14,3 +14,6 @@ Test 1
 * Stuff
 * *Stuff*
 * **test**
+
+
+** double asterisk like this ** - Puretie
