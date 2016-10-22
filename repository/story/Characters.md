@@ -7,3 +7,9 @@ Some description of the character?
 Some description of the character?
 * Other information
 * More information
+
+### Test Formatting
+Test 1
+* Stuff
+*Stuff
+**Stuff**
