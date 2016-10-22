@@ -11,5 +11,5 @@ Some description of the character?
 ### Test Formatting
 Test 1
 * Stuff
-*Stuff
-**Stuff**
+* Stuff
+* **Stuff**
