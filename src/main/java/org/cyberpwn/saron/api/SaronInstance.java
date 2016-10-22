@@ -75,4 +75,9 @@ public abstract class SaronInstance extends ConfigurableObject implements Instan
 	{
 		return enabled;
 	}
+	
+	public void setId(UUID id)
+	{
+		this.id = id;
+	}
 }
