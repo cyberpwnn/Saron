@@ -2,6 +2,10 @@ package org.cyberpwn.saron;
 
 import java.util.UUID;
 import org.cyberpwn.saron.api.Instance;
+import org.phantomapi.command.Command;
+import org.phantomapi.command.CommandAlias;
+import org.phantomapi.command.PhantomCommand;
+import org.phantomapi.command.PhantomSender;
 import org.phantomapi.construct.Controllable;
 import org.phantomapi.construct.Controller;
 import org.phantomapi.lang.GList;
@@ -33,6 +37,19 @@ public class InstanceManager extends Controller
 	public void onStop()
 	{
 		
+	}
+	
+	@Command("saron")
+	@CommandAlias("hrb")
+	public void onHRB(PhantomSender sender, PhantomCommand cmd)
+	{
+		if(cmd.getArgs().length > 0)
+		{
+			if(cmd.getArgs()[0].equalsIgnoreCase("hud"))
+			{
+				
+			}
+		}
 	}
 	
 	/**
