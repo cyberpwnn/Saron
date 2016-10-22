@@ -12,4 +12,4 @@ Some description of the character?
 Test 1
 * Stuff
 * Stuff
-* **Stuff**
+* *Stuff*
