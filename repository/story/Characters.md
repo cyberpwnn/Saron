@@ -16,4 +16,4 @@ Test 1
 * **test**
 
 
-** double asterisk like this ** - Puretie
+** double asterisk like this ** ---- **double asterisk like this** - Puretie
