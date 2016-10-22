@@ -27,6 +27,8 @@ public abstract class SaronInstance extends ConfigurableObject implements Instan
 		this.type = type;
 		id = UUID.randomUUID();
 		enabled = false;
+		
+		getConfiguration().set("type", type, "The type of this object");
 	}
 	
 	@Override
