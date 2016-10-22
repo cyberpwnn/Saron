@@ -1,4 +1,4 @@
-* [Generic Guard](generic-guard)
+* [Generic Guard](#generic-guard)
 
 ### Generic Guard
 Works with a village to ensure it's saftey, there are multiple instances of this character. This guard will attack you if you attack the guard. 
