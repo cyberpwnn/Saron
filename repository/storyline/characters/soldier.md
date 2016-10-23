@@ -9,4 +9,5 @@ Like a guard. Works with large cities and major ports to ensure their safety. Ca
 * Alchemist: Brews and throws splash potions during combat.
   * Healer: Variation of alchemist. Throws splash potions of healing, regeneration etc. on to other soldiers.(?)
 * Knight: Carries sharpness II sword, skilled at meelee combat.
-* Placeholder
+* Archer: Carries a Power II, Punch I bow, skilled at long-range combat. Easy to kill within 4-block range.
+* Peacemaker: Carries a knockback II baton (stick(?)).
