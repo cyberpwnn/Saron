@@ -12,4 +12,9 @@ Player [O]: Tell me about yourself! (2) / Can we sparr? (3)
     TG (2): I'm from a village in the centre of the continent, (insert village name here). It was a fairly peaceful area, aside from the mayor's children and occasionally the lost drunk. <looks away from the player, out to see, sighing sadly.> I was forced to flee during a rough conflict between us and a neighbouring city. My brother was killed en route. I got a job as a tour guide on the island to make end's meat, but now I enjoy it. <looks back at the player> Do you have any other questions?
 Player [O]: Can we sparr? (3) / How long until we reach the island? (4)
     TG (3): Of course! <launch into a sparring match with the player until the player says to stop>
-    TG (4):  <with back turned to the island> I'm not sure, we shouldn't be much longer. It doesn't usually take this much ti- <boat crashes onto a mysterious island, sending shrapnel everywhere. Player has temporary blindness, and finds themselves and the tour guide on the beach with a small part of the boat.> 
+    TG (4):  <with back turned to the island> I'm not sure, we shouldn't be much longer. It doesn't usually take this much ti- <boat crashes onto a mysterious island, sending shrapnel everywhere. Player has temporary blindness, and finds themselves and the tour guide on the beach with a small part of the boat. Player is affected by instant damage of three-five hearts.>
+
+Player: What was that?
+TG: <groans> I.. I don't know. <after a moment, stands up and looks around> We appear to be on an island near to the continent. <pauses, looking across near a cave> Shit... a (monster name here). <turns to player> You need to kill these. Can you do it?
+Player: With what?
+TG: <looking around, points to some of the boat wreckage> There's a stick there. It's better than nothing.
