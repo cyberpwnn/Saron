@@ -3,6 +3,7 @@ Gameplay
 [O] -> Optional responses.
 
 ...
+
 Tour Guide [TG]: <after player interacts with them> Hello, squire! I have been expecting you. Are you here on a mission for the General?
 Player [O]: Yes, that's right. (1) / No, goodbye! (2)
     TG: (2) Have a great day!
