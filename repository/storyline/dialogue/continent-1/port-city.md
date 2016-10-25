@@ -12,5 +12,5 @@ Player: What's the history of the island? (1) / Where am I? (2) / Nope! (3)
   Pk (3): Alright, squire. Come now, the mayor and his family are waiting to meet you in the building on the left. You can't miss it, it's the only three-story building on this block. Have fun!
 <launch into quest to find and interact with the mayor.>
 
-
+Mayor: 
 ````
