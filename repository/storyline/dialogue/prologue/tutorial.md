@@ -18,5 +18,9 @@ Player [O]: Can we sparr? (3) / How long until we reach the island? (4)
 Player: What was that?
 TG: <groans> I.. I don't know. <after a moment, stands up and looks around> We appear to be on an island near to the continent. <pauses, looking across near a cave> Shit... a (monster name here). <turns to player> You need to kill these. Can you do it?
 Player: With what?
-TG: <looking around, points to some of the boat wreckage> There's a stick there. It's better than nothing.
+TG: <looking around, points to some of the boat wreckage> There's a stick there. It's better than nothing. Quick! <desperately>
+Player: <after getting stick, launch into quest to kill the monsters with TG> 
+TG: S-Squire, here! <laying on floor bleeding, a moster on their throat.> 
+TG: <after player kills monster> There is a boat on the other side of the island. Take it to the port city. And this. <giving player a note> Good luck, Squire. <dies>
+<launch into quest to find the boat, and then short cutscene once they are on the baot. Cutscene ends when they reach the port city and get off of the boat.>
 ```
