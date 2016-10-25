@@ -20,7 +20,18 @@ TG: <groans> I.. I don't know. <after a moment, stands up and looks around> We a
 Player: With what?
 TG: <looking around, points to some of the boat wreckage> There's a stick there. It's better than nothing. Quick! <desperately>
 Player: <after getting stick, launch into quest to kill the monsters with TG> 
-TG: S-Squire, here! <laying on floor bleeding, a moster on their throat.> 
-TG: <after player kills monster> There is a boat on the other side of the island. Take it to the port city. And this. <giving player a note> Good luck, Squire. <dies>
-<launch into quest to find the boat, and then short cutscene once they are on the baot. Cutscene ends when they reach the port city and get off of the boat.>
+{Once quest has been completed}
+TG: <bleeding slightly, looking at the monster corpses> Good job, squire. I'm sorry that I couldn't be of more help.
+Player [O]: It's okay! (1) / You could've done a little more.. (2)
+TG: Right. In any case, we should-
+Assassin: <appearing behind the tour guide, a blade at their throat> "We" won't be doing anything. <begins to draw blade across the tour guide's throat>
+TG: Squire, run! <dies and is decapitated>
+Assassin: <dropping the tour guide's corpse, walking towards the player> What do we have here? <laughs> An outsider? Well- <turns around as they hear footsteps, seeing the jester running at them>
+Jester: <trips over some ship rubble as they run towards the player, carrying a knife> You forgot- <stabs the assassin>
+Assassin: <hisses and then dies from the stab wound>
+Player: <looking at assassin to the jester> You.. You snuck on to the ship?
+Jester: Aye, but I saved you.
+Player: That was a fluke-
+Jester: No, skill. You have to let me stay. I saved you.
+Player [O]: Fine, you can stay. (1) / No, go back to the general! (2)
 ```
