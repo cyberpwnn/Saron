@@ -34,4 +34,6 @@ Jester: Aye, but I saved you.
 Player: That was a fluke-
 Jester: No, skill. You have to let me stay. I saved you.
 Player [O]: Fine, you can stay. (1) / No, go back to the general! (2)
+Jester: There are items scattered around the island we could use to make a raft or a boat. Let's not get shipwrecked! <laughs>
+<begin quest to find the pieces of the boat>
 ```
