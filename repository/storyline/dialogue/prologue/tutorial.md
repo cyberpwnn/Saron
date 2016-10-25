@@ -1,5 +1,6 @@
 # Tutorial
 Gameplay
+```
 [O] -> Optional responses.
 
 Tour Guide [TG]: <after player interacts with them> Hello, squire! I have been expecting you. Are you here on a mission for the General?
@@ -18,3 +19,4 @@ Player: What was that?
 TG: <groans> I.. I don't know. <after a moment, stands up and looks around> We appear to be on an island near to the continent. <pauses, looking across near a cave> Shit... a (monster name here). <turns to player> You need to kill these. Can you do it?
 Player: With what?
 TG: <looking around, points to some of the boat wreckage> There's a stick there. It's better than nothing.
+```
