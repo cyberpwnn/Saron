@@ -1,5 +1,7 @@
-#Meet-Greet Quest
-* The player must find a boat located on the other side of the island and get in it. The quest will end when the cutscene begins.
+#Fetch & Meet-Greet Quest
+* The player must find pieces of the boat scattered across the island in order to make a raft to travel to the port city. During this, they must also fight off monsters that spawn in. The items must be returned to the jester in order to make the raft.
 
 ##Quest Items
   * Placeholder.
+  * 5x wood
+  * 2x stick
