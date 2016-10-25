@@ -1,6 +1,6 @@
 # Tutorial
 Gameplay
-```
+
 [O] -> Optional responses.
 
 Tour Guide [TG]: <after player interacts with them> Hello, squire! I have been expecting you. Are you here on a mission for the General?
@@ -36,4 +36,4 @@ Jester: No, skill. You have to let me stay. I saved you.
 Player [O]: Fine, you can stay. (1) / No, go back to the general! (2)
 Jester: There are items scattered around the island we could use to make a raft or a boat. Let's not get shipwrecked! <laughs>
 <begin quest to find the pieces of the boat>
-```
+
