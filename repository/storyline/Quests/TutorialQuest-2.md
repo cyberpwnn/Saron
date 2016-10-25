@@ -5,3 +5,6 @@
   * Placeholder.
   * 5x wood
   * 2x stick
+
+###Characters:
+ * Monsters: From a cave in the central-east area of the island, a clearing through some of the trees. They have better vision than other characters and are skilled mostly at close-combat, using their claws to inflict damage.
