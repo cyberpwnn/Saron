@@ -1,3 +1,13 @@
+# File Naming
+* Ensure it ends with .md
+* Ensure it is all lower case
+* Ensure all spaces are replaced with dashes
+
+### Examples
+* file-name.md
+* file-name-2.md
+* test.md
+
 # How to Make stuff
 Some may not know, but there are some important things to know when editing on github.
 
