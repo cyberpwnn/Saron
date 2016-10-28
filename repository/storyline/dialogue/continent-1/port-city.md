@@ -16,6 +16,8 @@ Mayor: <after player interacts with them> Greetings, squire! We have been awaiti
 Player [O]: No, what is happening? (1) / I do! (2)
     Mayor: (1) Myself and the Crown Council of your continent have called you here on account of the recent threats facing our continent, and ever-advancing. If unchecked, it could take over the realms.
     Mayor: (2) Good, let's cut to the chase, then.
-Mayor: It is to my understanding that you are 
-
+Mayor: It is to my understanding that you are one of the most capable members of your court. Due to this, I want you to be the person to scout my city. On the border to the nearby village there is a cave my men refuse to explore. Explore it and report back to me and I will reward you generously. {Quest}
+Player [O]: I will! (1) / Hell no! (2)
+    Mayor (1): Take this map. You nay need it.
+    Mayor (2): Come back when you're ready to accept.
 ````
