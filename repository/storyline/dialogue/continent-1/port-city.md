@@ -20,4 +20,5 @@ Mayor: It is to my understanding that you are one of the most capable members of
 Player [O]: I will! (1) / Hell no! (2)
     Mayor (1): Take this map. You nay need it.
     Mayor (2): Come back when you're ready to accept.
+<see quests file for continued storyline.>
 ````
