@@ -6,5 +6,7 @@ If the player chooses to interact with the character, the following will occur.
 ```
 Drunk: You there! Over here!
 Player: Me?
+Drunk: <slurring> Yes, you. Come 'ere. <walking over to player a little, not in a straight line, slowly> Do me a favour, would you?
+Player [O]: What is it? (1) / No, I don't have time for you. (2)
 
 ```
