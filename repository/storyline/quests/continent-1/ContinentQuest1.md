@@ -3,4 +3,7 @@ The player is sent by the port keeper to interact with the mayor. Once inside th
 
 ##Characters
   * Mayor
-  * Mayor's wift (doesn't speak)
+  * Mayor's wife (doesn't speak)
+
+##Items
+ * Map
