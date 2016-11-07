@@ -1,4 +1,4 @@
-##Kill Quest
+The player##Kill Quest
 During the journey to the cave, the player will see soldiers attacking a citizen. Some bodies will be on the ground from soldiers. The captain will shout to the player, "Come here! You!" If the player chooses to interact with the character, the following will occur.
 
 ##Dialogue
@@ -12,3 +12,13 @@ Captain (1): Never mind that. Take this, you'll need it. Quick!
 
 ```
 ##Details
+The player must apprehend (kill / knock unconsious) the criminal for the soldiers and the captain before they get "killed" (knocked unconscious) themselves in order for the wuest to be completed. If the player is knocked unconscious, they will wake up in a hospital back by the port dock next to the Mayor's office, with a note from the captain. The quest will end if this happens.
+
+##Characters
+* Captain
+* Soldiers
+* Criminal
+
+##Quest Items
+* Sharpness I wooden sword
+* Note (under the knocked unconscious circumstance only)
