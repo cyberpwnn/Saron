@@ -4,6 +4,7 @@ If the player interacts with the character, the following will occur.
 
 ##Dialogue
 ```
-Placeholde
-r
+Drunk: You there! Over here!
+Player: Me?
+
 ```
