@@ -5,5 +5,5 @@ The player is sent by the port keeper to interact with the mayor. Once inside th
   * Mayor
   * Mayor's wife (doesn't speak)
 
-##Items
+##Quest Items
  * Map
