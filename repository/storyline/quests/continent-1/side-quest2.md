@@ -1,4 +1,4 @@
-The player##Kill Quest
+#Kill Quest
 During the journey to the cave, the player will see soldiers attacking a citizen. Some bodies will be on the ground from soldiers. The captain will shout to the player, "Come here! You!" If the player chooses to interact with the character, the following will occur.
 
 ##Dialogue
