@@ -13,7 +13,7 @@ Merchant: <after player has selected> I hope you find it useful! Feel free to ta
 ```
 
 ##Information
-Weaponsmith stall: Offers all swords, only unlockable after certain levels (i.e diamond sword after level 25).
+**Armorsmith stall: Offers all armor, only unlockable after certain levels (i.e diamond armor after level 25).**
 #PRICES ARE PLACEHOLDERS. 
 *  Leather Helmet: 15xp  
 *  Leather Chestplate: 25xp  
@@ -31,5 +31,7 @@ Weaponsmith stall: Offers all swords, only unlockable after certain levels (i.e 
 * Diamond Chestplate: 175xp
 * Diamond Leggings: 175xp
 * Diamond Boots: 150xp
+
+* Enchants: Unbreaking, Protection, Thorns, Aqua Affinity, Feather Falling, **Custom Enchants?**
   
-  Armorsmith stall: Offers all armour, as above.
+**Weaponsmith**
