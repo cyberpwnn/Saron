@@ -27,5 +27,9 @@ Weaponsmith stall: Offers all swords, only unlockable after certain levels (i.e 
 *  Iron Chestplate: 100xp  
 *  Iron Leggings: 100xp  
 *  Iron Boots: 75xp 
+* Diamond Helmet: 150xp
+* Diamond Chestplate: 175xp
+* Diamond Leggings: 175xp
+* Diamond Boots: 150xp
   
   Armorsmith stall: Offers all armour, as above.
