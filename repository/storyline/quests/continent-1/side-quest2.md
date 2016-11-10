@@ -22,3 +22,6 @@ The player must apprehend (kill / knock unconsious) the criminal for the soldier
 ##Quest Items
 * Sharpness I wooden sword
 * Note (under the knocked unconscious circumstance only)
+
+##Rewards
+* ???
