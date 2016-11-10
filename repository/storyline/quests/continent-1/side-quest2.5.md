@@ -34,4 +34,4 @@ Merchant: <after player has selected> I hope you find it useful! Feel free to ta
 
 * Enchants: Unbreaking, Protection, Thorns, Aqua Affinity, Feather Falling, **Custom Enchants?**
   
-**Weaponsmith**
+**Weaponsmith: Offers all swords, bows and axes. As above.**
