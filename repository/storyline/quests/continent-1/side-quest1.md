@@ -20,3 +20,6 @@ The player must go into the tavern and talk to the bar tender in order to get a 
 
 ##Quest Items
 * Empty bottle (becomes full after talking to bar tender)
+
+##Rewards
+* ???
