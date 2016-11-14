@@ -14,7 +14,7 @@ GM3 (1 or either option in 2): Shouldn't have set foot down here then. You ain't
 GM1: Too late now.
 GM2: Everyone in town knows this here ain't worth messing with.
 Player [O]: <walks towards the door> Let me go. Now. (1) / What do you want from me? (2)
-  GM4: <swinging axe, hitting the player once> You're not going anywhere, mate.
+  GM4: <swinging axe, hitting the player once> You're not going anywhere, mate. 
 GM2: Not until you do a little something for us, anyway.
 GM1: Consider it... <pausing> Payment. For tresspassing.
   GM3 (1): We want you to do a little something for us.
