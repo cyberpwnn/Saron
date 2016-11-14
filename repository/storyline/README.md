@@ -8,7 +8,7 @@
 * ```file-name-2.md```
 * ```test.md```
 
-# How to Make stuff
+# How to Make Stuff
 Some may not know, but there are some important things to know when editing on github.
 
 ## Creating New Files
