@@ -30,3 +30,7 @@ GM4: Take this. We will know if you complete this task. You're free of it, if yo
 Player: And if I'm not?
 GM4: Then either way, you are dead.
 ```
+#If player is knocked unconscious by the group, the following will be added to the cutscene.
+```
+<Fade cutscene out ending on the player's unconscious body and the group carrying it away. Fade in on the player awakening in a hospital with a note from the group expressing that they will be following the player's every move from then on.>
+```
