@@ -8,6 +8,9 @@ Player [O]: Yes, but-- (1) / Yes, I did. (2)
   Mayor (either option): -Good job! So, what did you find? Was there anything bad?
 Player [O]: No, it was fine. I saw nothing of concern. (1) / It was fine, but I have to tell you something... (2) / It didn't have to be this way. (3)
   {If player chooses #3, put sword in their inventory hand and begin attacking the mayor. Swarm guards in and apprehend the player in a cutscene.}
+  Mayor (2): Oh? Do tell.
+  Player [O]: I came across a group. They told me I had to kill you to live. They're following me. (1) / A group is out to get you. They are following me here. (2)
+    Mayor (either option):
 
 ```
 
