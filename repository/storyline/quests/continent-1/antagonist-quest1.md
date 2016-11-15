@@ -3,7 +3,7 @@ The player must kill the mayor for the gang in the cave. If the player accepts, 
 
 ##Dialogue
 ```
-Details here: me? (2)  GM4: https://github.com/cyberpwnn/Saron/blob/master/repository/storyline/dialogue/continent-1/cutscene-3.md
+Details here: https://github.com/cyberpwnn/Saron/blob/master/repository/storyline/dialogue/continent-1/cutscene-3.md
 ```
 
 ##Details
