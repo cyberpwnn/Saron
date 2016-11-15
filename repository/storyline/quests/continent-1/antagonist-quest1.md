@@ -7,7 +7,7 @@ Details here: https://github.com/cyberpwnn/Saron/blob/master/repository/storylin
 ```
 
 ##Details
-The player must kill the mayor if they accept the quest, without getting caught. Quest ends once this has been done.
+The player must kill the mayor if they accept the quest, without getting caught. Quest ends once this has been done or the player has been apprehended.
 
 ##Characters
 * Mayor
