@@ -3,7 +3,7 @@ Takes place as soon as the first main quest has been completed.
 * GM(number): Group member (number).
 ```
 {The player has just killed all the monsters from the cave. They see a group of about four people coming towards them. GM1 carrying a sword, GM2 and 3 a "baton", GM4 an axe. Faces all covered except for eyes.}
-GM1: <arms crossed, walking towards the player slowly, looking at the other three in the wroup> Well, well. What's this? A newbie? My, it's been a while. <laughing> Remember the last one, Two?
+GM1: <arms crossed, walking towards the player slowly, looking at the other three in the group> Well, well. What's this? A newbie? My, it's been a while. <laughing> Remember the last one, Two?
 GM2: Whacked to death before he could even step in our cave! <other GMs laughing>
 GM3: We pounded all of 'em in to the ground!
 GM4: Into the damn ground. <slowly>
