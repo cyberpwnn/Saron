@@ -10,7 +10,9 @@ Player [O]: No, it was fine. I saw nothing of concern. (1) / It was fine, but I 
   {If player chooses #3, put sword in their inventory hand and begin attacking the mayor. Swarm guards in and apprehend the player in a cutscene.}
   Mayor (2): Oh? Do tell.
   Player [O]: I came across a group. They told me I had to kill you to live. They're following me. (1) / A group is out to get you. They are following me here. (2)
-    Mayor (either option):
+    Mayor (either option): I see. Thank you for-
+  {Swarm group members, attak player}
+Mayor (2.1): Good work, squire! However... I have some disturbing news. One of the major towns in my control has burned down from the hostile forces. Please go and investigate this. 
 
 ```
 
