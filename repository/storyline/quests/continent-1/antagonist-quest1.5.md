@@ -15,9 +15,10 @@ Player [O]: No, it was fine. I saw nothing of concern. (1) / It was fine, but I 
 ```
 
 ###If the player chooses to attack the mayor (option 2.3):
-
+Swarm guards into the room and begin attacking the player. Apprehend the player and fade into a cutscene. Antagonist quest 1.75
 
 ###If the player says nothing (option 2.1):
-
+Allow the player to leave alive. Follow antagonist quest path. Player can still take protagonist (main) quests and restore relation points.
 
 ###If the player tells the mayor about the group (option 2.2):
+Swarm group into the room to attack the player. Swarm bodyguards to protect the mayor and attack the group long-range. Knock player unconscious, fade into a cutscene. Follow protagonist quest path (player can still take antagonist quests).
