@@ -20,5 +20,10 @@ Player [O]: Thanks, I think.. (1) / I'm a wanted damn criminal now, thanks for t
     GM2 (3): Died in the bloody hands of the captain. 
     GM1 (3): We took care of him though. He can burn in hell.
 GM1 (1): Enough chat. Let's get the hell out of here. {Fade out. Fade in, in a "flashback", some of what had happened between the attack and the imprisonment.}
-
+(In flashback, include the player as they attacked the mayor, the mayor falling to the ground, the guards swarming in and throwing the player down, and the player being pushed in a prison cell.)
+```
+##Pt. 3
+```
+{Fade in on player and GMs in an underground "base". One GM guarding the entrance, the others discussing with the player how to get out of the area unnoticed.}
+GM1: You'll get killed, or at the very least, broken in prison by the guards, if they find you.
 ```
