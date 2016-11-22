@@ -38,3 +38,4 @@ Player [O]: Fine, you can stay. (1) / No, go back to the general! (2)
 Jester: There are items scattered around the island we could use to make a raft or a boat. Let's not get shipwrecked! <laughs>
 <begin quest to find the pieces of the boat>
 ```
+#Placeholder: Add information about RPs (relation points), what happens if the player lets them drop too low, etc.
