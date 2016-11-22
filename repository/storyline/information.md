@@ -34,3 +34,4 @@ At this point (22-11-2016), players can gain negative RPs for the following:
 * Being imprisoned (small-medium loss, depending on crime, and time given).
 
 ###If a player reaches -30 RPs:
+Guards will be instructed to apprehend the player on sight, and imprison them for X time. The player can find a way to escape (although it would cause them to gain negative RPs) or wait out their time, which would redeem them slightly. They would not be completely trustworthy, however their reputation would go from -30 (or less, depending on how many negative RPs the player has) to -15. They would also receive a citation from the city leader (which would be bound to their inventory until they reach +10 RPs) advising them to up their behaviour. 
