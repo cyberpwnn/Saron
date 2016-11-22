@@ -31,3 +31,6 @@ At this point (22-11-2016), players can gain negative RPs for the following:
 * Completing antagonist quests (large loss)
 * Killing people within the city unless told to by a guard (medium-large loss, depending on character status within the city)
 * Being **majorly** rude to characters (small loss)
+* Being imprisoned (small-medium loss, depending on crime, and time given).
+
+###If a player reaches -30 RPs:
