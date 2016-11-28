@@ -6,10 +6,13 @@ import org.phantomapi.clust.Keyed;
 
 public class CFG extends ConfigurableObject
 {
-	public static CFG instance;
+	public static CFG i;
 	
-	@Keyed("core.production")
-	public boolean production = false;
+	@Keyed("designer.enabled")
+	public boolean designerEnabled = true;
+	
+	@Keyed("designer.capacity-mode")
+	public String designerCapacityMode = "UNLIMITED";
 	
 	public CFG()
 	{
@@ -18,6 +21,6 @@ public class CFG extends ConfigurableObject
 	
 	public static DataCluster get()
 	{
-		return instance.getConfiguration();
+		return i.getConfiguration();
 	}
 }
