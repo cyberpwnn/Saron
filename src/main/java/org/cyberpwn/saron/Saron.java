@@ -20,6 +20,7 @@ public class Saron extends Ghost implements GamePlugin
 		instance = this;
 		cfg = new CFG();
 		loadCluster(cfg);
+		
 		saronInstance = new SaronInstance(this);
 		
 		register(saronInstance);
