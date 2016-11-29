@@ -1,9 +1,14 @@
 package org.cyberpwn.saron;
 
+import org.bukkit.event.EventHandler;
+import org.bukkit.event.player.PlayerCommandPreprocessEvent;
 import org.cyberpwn.saron.game.SaronDesigner;
+import org.phantomapi.Phantom;
 import org.phantomapi.command.CommandController;
+import org.phantomapi.command.CommandListener;
 import org.phantomapi.command.PhantomCommand;
 import org.phantomapi.command.PhantomCommandSender;
+import org.phantomapi.command.PhantomSender;
 import org.phantomapi.construct.Controllable;
 import org.phantomapi.lang.GList;
 import org.phantomapi.text.MessageBuilder;
@@ -18,50 +23,71 @@ public class SaronInstance extends CommandController
 		super(parentController, "saron");
 		
 		designer = null;
+		
+		Phantom.instance().getCommandRegistryController().register((CommandListener) this);
 	}
 	
-	@Override
-	public boolean onCommand(PhantomCommandSender sender, PhantomCommand cmd)
+	@EventHandler
+	public void on(PlayerCommandPreprocessEvent e)
 	{
-		sender.setMessageBuilder(new MessageBuilder(this));
-		
-		if(sender.hasPermission("saron.developer"))
+		if(e.getPlayer().hasPermission("saron.developer"))
 		{
-			if(designer != null)
+			MessageBuilder mb = new MessageBuilder(this);
+			PhantomSender sender = new PhantomSender(e.getPlayer());
+			sender.setMessageBuilder(mb);
+			String message = e.getMessage();
+			String roots = message;
+			GList<String> rtz = new GList<String>(roots.split(" "));
+			String command = rtz.pop();
+			String[] args = rtz.toArray(new String[rtz.size()]);
+			PhantomCommand cmd = new PhantomCommand("saron", args);
+			
+			if(command.equalsIgnoreCase("/saron"))
 			{
-				if(cmd.getArgs().length > 0)
+				e.setCancelled(true);
+				
+				if(designer != null)
 				{
-					if(cmd.getArgs()[0].equalsIgnoreCase("join") || cmd.getArgs()[0].equalsIgnoreCase("j"))
+					if(cmd.getArgs().length > 0)
 					{
-						if(sender.isPlayer())
+						if(cmd.getArgs()[0].equalsIgnoreCase("join") || cmd.getArgs()[0].equalsIgnoreCase("j"))
 						{
-							if(designer.contains(sender.getPlayer()))
+							if(sender.isPlayer())
 							{
-								sender.sendMessage("Already in designer mode.");
-							}
-							
-							else
-							{
-								designer.joinGame(sender.getPlayer());
-								sender.sendMessage("Designer mode enabled");
+								if(designer.contains(sender.getPlayer()))
+								{
+									sender.sendMessage("Already in designer mode.");
+								}
+								
+								else
+								{
+									designer.joinGame(sender.getPlayer());
+									sender.sendMessage("Designer mode enabled");
+								}
 							}
 						}
-					}
-					
-					else if(cmd.getArgs()[0].equalsIgnoreCase("quit") || cmd.getArgs()[0].equalsIgnoreCase("q"))
-					{
-						if(sender.isPlayer())
+						
+						else if(cmd.getArgs()[0].equalsIgnoreCase("quit") || cmd.getArgs()[0].equalsIgnoreCase("q"))
 						{
-							if(!designer.contains(sender.getPlayer()))
+							if(sender.isPlayer())
 							{
-								sender.sendMessage("Not in designer mode.");
+								if(!designer.contains(sender.getPlayer()))
+								{
+									sender.sendMessage("Not in designer mode.");
+								}
+								
+								else
+								{
+									designer.quitGame(sender.getPlayer());
+									sender.sendMessage("Designer mode disabled");
+								}
 							}
-							
-							else
-							{
-								designer.quitGame(sender.getPlayer());
-								sender.sendMessage("Designer mode disabled");
-							}
+						}
+						
+						else
+						{
+							sender.sendMessage("/saron j,join - Join designer");
+							sender.sendMessage("/saron q,quit - Quit designer");
 						}
 					}
 					
@@ -71,15 +97,13 @@ public class SaronInstance extends CommandController
 						sender.sendMessage("/saron q,quit - Quit designer");
 					}
 				}
-			}
-			
-			else
-			{
 				
+				else
+				{
+					sender.sendMessage("Designer mode is not enabled.");
+				}
 			}
 		}
-		
-		return true;
 	}
 	
 	@Override
@@ -123,5 +147,11 @@ public class SaronInstance extends CommandController
 	public GList<String> getCommandAliases()
 	{
 		return new GList<String>().qadd("sar").qadd("sarons").qadd("sa");
+	}
+	
+	@Override
+	public boolean onCommand(PhantomCommandSender sender, PhantomCommand command)
+	{
+		return false;
 	}
 }
