@@ -15,14 +15,14 @@ public class PlayerDataController extends PlayerDataHandler<SaronPlayer>
 	public SaronPlayer onLoad(Player identifier)
 	{
 		SaronPlayer p = new SaronPlayer(identifier);
-		loadCluster(p, "playerdata");
+		loadMysql(p);
 		return p;
 	}
 	
 	@Override
 	public void onSave(Player identifier)
 	{
-		saveCluster(get(identifier), "playerdata");
+		saveMysql(get(identifier));
 	}
 	
 	@Override
