@@ -1,5 +1,6 @@
 package org.cyberpwn.saron;
 
+import org.cyberpwn.saron.game.SaronServer;
 import org.phantomapi.construct.Ghost;
 import org.phantomapi.game.GamePlugin;
 
@@ -12,6 +13,7 @@ public class Saron extends Ghost implements GamePlugin
 {
 	public static Saron instance;
 	private CFG cfg;
+	private SaronServer s;
 	
 	@Override
 	public void preStart()
@@ -19,6 +21,10 @@ public class Saron extends Ghost implements GamePlugin
 		instance = this;
 		cfg = new CFG();
 		loadCluster(cfg);
+		
+		s = new SaronServer(this);
+		
+		register(s);
 	}
 	
 	@Override
