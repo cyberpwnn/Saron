@@ -12,7 +12,6 @@ public class Saron extends Ghost implements GamePlugin
 {
 	public static Saron instance;
 	private CFG cfg;
-	private SaronInstance saronInstance;
 	
 	@Override
 	public void preStart()
@@ -20,10 +19,6 @@ public class Saron extends Ghost implements GamePlugin
 		instance = this;
 		cfg = new CFG();
 		loadCluster(cfg);
-		
-		saronInstance = new SaronInstance(this);
-		
-		register(saronInstance);
 	}
 	
 	@Override
@@ -52,10 +47,5 @@ public class Saron extends Ghost implements GamePlugin
 	public CFG getCfg()
 	{
 		return cfg;
-	}
-	
-	public SaronInstance getSaronInstance()
-	{
-		return saronInstance;
 	}
 }
