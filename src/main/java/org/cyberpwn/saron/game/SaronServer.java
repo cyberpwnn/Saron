@@ -6,16 +6,23 @@ import org.phantomapi.command.CommandController;
 import org.phantomapi.command.PhantomCommand;
 import org.phantomapi.command.PhantomCommandSender;
 import org.phantomapi.construct.Controllable;
+import org.phantomapi.construct.Ticked;
 import org.phantomapi.lang.GList;
+import org.phantomapi.lang.GSet;
 import org.phantomapi.lang.GSound;
 import org.phantomapi.text.SYM;
 import org.phantomapi.util.C;
 
+@Ticked(0)
 public class SaronServer extends CommandController
 {
+	private GSet<SaronGame> games;
+	
 	public SaronServer(Controllable parentController)
 	{
 		super(parentController, ".");
+		
+		games = new GSet<SaronGame>();
 	}
 	
 	@Override
@@ -44,6 +51,15 @@ public class SaronServer extends CommandController
 		}
 		
 		return true;
+	}
+	
+	@Override
+	public void onTick()
+	{
+		for(SaronGame i : games)
+		{
+			i.tick();
+		}
 	}
 	
 	@Override
